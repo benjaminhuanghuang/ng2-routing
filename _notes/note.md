@@ -31,3 +31,24 @@
 ## Modify app-routing.module.ts
     Add routing config
     const appRoutes: Routes = [{},{}];
+
+## Sub routing:
+
+## Create component
+    $ ng g c home/home1
+    $ ng g c home/home2
+    $ ng g c home/home-detail
+    
+    
+## Add link on home page (home.component.html)
+    
+    Type ul>li*2>a  and ng2-routerLink  
+
+    Create <li><a [routerLink]="['/second'']">Second</a></li>
+
+## Add router-outlet on home page (app.component.html)
+    <router-outlet></router-outlet>
+
+## Modify app-routing.module.ts
+    Add routing config
+    Add children

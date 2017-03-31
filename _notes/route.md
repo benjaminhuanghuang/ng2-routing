@@ -9,3 +9,8 @@
 
 ## HashLocationStrategy
     {useHash:true}
+
+
+## Import routes from files
+
+## Sub routing
