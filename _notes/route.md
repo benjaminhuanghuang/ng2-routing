@@ -4,3 +4,8 @@
     -> Activate component
 
 
+## PathLocationStrategy
+    IIS: 
+
+## HashLocationStrategy
+    {useHash:true}

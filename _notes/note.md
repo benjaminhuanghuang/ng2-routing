@@ -26,4 +26,8 @@
     Create <li><a [routerLink]="['/second'']">Second</a></li>
 
 ## Add router-outlet on index page (app.component.html)
-    <router-outlet></router-outlet>sk
+    <router-outlet></router-outlet>
+
+## Modify app-routing.module.ts
+    Add routing config
+    const appRoutes: Routes = [{},{}];
