@@ -14,3 +14,6 @@
 ## Import routes from files
 
 ## Sub routing
+
+## Pass parameter
+ <li><a [routerLink]="['/home/home/123']">Home-123</a></li>Ï
